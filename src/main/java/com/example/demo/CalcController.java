@@ -11,4 +11,9 @@ public class CalcController {
 		return "Hello Git!!";
 	}
 	
+	@GetMapping(value="/add")
+	public String add() {
+		return "25 + 36 = " + (25+36);
+	}
+	
 }
